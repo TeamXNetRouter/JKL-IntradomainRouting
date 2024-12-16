@@ -52,7 +52,7 @@ Follow the instructions below to get the system up and running:
 2. Navigate to the project directory:
 
     ```bash
-    cd intradomain-routing
+    cd JKL-IntradomainRouting
     ```
 
 3. Run the project using the following command:
@@ -64,7 +64,7 @@ Follow the instructions below to get the system up and running:
 4. To test the setup, you can use the following command in the terminal:
 
     ```bash
-    C1_1 traceroute -I C3_2
+    C1_1 traceroute -n C3_2
     ```
 
 5. Even if the link between R1 and R3 is down, you can still perform a traceroute:
